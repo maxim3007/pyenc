@@ -7,6 +7,8 @@ import base64
 from prompt_toolkit.shortcuts import ProgressBar
 import struct, zlib
 
+print("\nencr.py  Copyright (C) 2023  maxim3007\n")
+
 parser = argparse.ArgumentParser()
 parser.add_argument("-e", help="encrypt file")
 parser.add_argument("-d", help="decrypt file")
